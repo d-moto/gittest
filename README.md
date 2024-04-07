@@ -16,14 +16,14 @@ C:/User/python/openbrowsディレクトリができる。
 ```
 ex)
 > C:/User/python/openbrows/Scripts/activate.bat <enter>
-(opnebrowsenv) > # 仮想環境の実行に成功すると、先のように（仮想環境名）> という表示になる。
+(opnebrowsenv) > # 仮想環境の実行に成功すると、左記のように（仮想環境名）> という表示になる。
 ```
 
 ## pythonファイルの実行
 pythonは、ダウンロードしたファイル内にあるpythonを使う。
-ファイルはフルパスで使用すること。
+ファイルはフルパスで指定すること。
 ```
-> C:/User/python/openbrows/Scripts/python.exe C:/User/python/openbrows/Scripts/openbrows.py
+(opnebrowsenv) > C:/User/python/openbrows/Scripts/python.exe C:/User/python/openbrows/Scripts/openbrows.py
 ```
 ブラウザが起動し、10s毎にブラウザが更新されれば成功。
 
